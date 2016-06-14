@@ -1,0 +1,25 @@
+@-moz-document url-prefix("http://www.bilibili.com") {
+	
+	/* =========================== 清理视觉污染 =========================== */
+
+	/* Optimize font. */
+	body {
+		font-family: Helvetica, Arial, Microsoft YaHei, sans-serif;
+	}
+	.info b {
+		font-weight: normal;
+	}
+	.b-head .b-head-t h2 {
+		font-size: 20px !important;
+		color: #505050;
+	}
+
+	/* Video thumbnails opacity morph. */
+	.topic-preview-wrapper,
+	.rm-item,
+	.pmt-link a,
+	.v, .v-item,
+	.lv-item,
+	.b-r .b-body {
+		opacity: .4;
+	}
